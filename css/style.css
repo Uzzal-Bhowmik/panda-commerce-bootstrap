@@ -1,8 +1,24 @@
+:root {
+    --primary-clr: #ff136f;
+}
+
 .my-bg-info {
     background: #fceae8;
 }
+#search-bar {
+    position: relative;
+}
+#search-btn {
+    position: absolute;
+    top: 13px;
+    right: 76px;
+    transition: all .3s;
+}
+#search-btn:hover {
+    color: var(--primary-clr);
+}
 .my-price-color {
-    color: #ff136f;
+    color: var(--primary-clr);
 }
 .my-buy-now-button {
     background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
