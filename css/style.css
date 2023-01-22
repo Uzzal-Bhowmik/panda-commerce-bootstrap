@@ -5,18 +5,6 @@
 .my-bg-info {
     background: #fceae8;
 }
-#search-bar {
-    position: relative;
-}
-#search-btn {
-    position: absolute;
-    top: 13px;
-    right: 76px;
-    transition: all .3s;
-}
-#search-btn:hover {
-    color: var(--primary-clr);
-}
 .my-price-color {
     color: var(--primary-clr);
 }
